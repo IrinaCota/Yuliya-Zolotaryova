@@ -7,7 +7,8 @@ import FullReload from 'vite-plugin-full-reload';
 
 
 export default defineConfig(({ command }) => {
-  return {
+    return {
+      base: '/yuliya-zolotaryova/',
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
