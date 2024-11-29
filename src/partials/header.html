@@ -1,22 +1,25 @@
 <header class="header" id="header">
   <div class="header-section">
-    <nav class="header-nav">
-      <a class="header-nav" href="../index.html">
-        <div class="logo-box">
-          <img
-            src="/src/img/YuliyaLogo.jpg"
-            loading="lazy"
-            alt="logo"
-            class="logo"
-          />
-        </div>
-      </a>
-    </nav>
+    <div class="header-logo">
+      <nav class="header-nav">
+        <a class="header-nav" href="../index.html">
+          <div class="logo-box">
+            <img
+              src="./images/YuliyaLogo.jpg"
+              loading="lazy"
+              alt="logo"
+              class="logo"
+            />
+          </div>
+        </a>
+      </nav>
+    </div>
     <div class="menu-box-list">
       <div class="menu-tab-div">
         <button class="menu-tab">Menu</button>
       </div>
 
+      <!-- Десктопне меню -->
       <div class="menu is-hidden">
         <ul class="menu-list">
           <li class="menu-list-item">
@@ -36,18 +39,52 @@
           </li>
         </ul>
       </div>
-      <div class="btn-box">
-        <button
-          class="menu-mob-btn"
-          aria-label="menu burger button"
-          data-menu-open
-          type="button"
-        >
-          <svg class="icon_burger">
-            <use href="/src/img/symbol-defs.svg#icon-th-menu"></use>
-          </svg>
-        </button>
-      </div>
     </div>
+    <div class="btn-box">
+      <!-- Мобільна кнопка -->
+      <button
+        class="menu-mob-btn"
+        aria-label="menu burger button"
+        type="button"
+      >
+        <svg class="icon_burger">
+          <use href="../images/icons.svg#icon-th-menu"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Мобільне меню -->
+  <div class="mob-menu is-hidden">
+    <div class="top-div">
+      <button
+        class="close_menu_btn"
+        aria-label="button close menu"
+        type="button"
+      >
+        <svg class="icon-btn-menu">
+          <use href="../images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+    <nav class="mob-nav">
+      <ul class="mob-menu-list">
+        <li class="mob-menu-item">
+          <a class="mob-menu-anchor" href="#about">About</a>
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-menu-anchor" href="#benefits">Benefits</a>
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-menu-anchor" href="#gallery">Gallery</a>
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-menu-anchor" href="#reviews">Reviews</a>
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-menu-anchor" href="#footer">Contacts</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>

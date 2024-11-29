@@ -1,0 +1,64 @@
+.about-me {
+    max-width: 1260px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(61, 58, 58, 0.2);
+}
+
+.about-header {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .about-header {
+        font-size: 48px;
+        line-height: 1.12;
+    }
+}
+
+.about-photo {
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    max-width: 100%;
+    
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .about-photo {
+        margin: 0;
+        object-position: center;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 4px;
+    }
+}
+
+.about-p {
+     
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .about-desk {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        max-width: 1260px;
+        margin: 0 auto;
+    } 
+
+   
+}
