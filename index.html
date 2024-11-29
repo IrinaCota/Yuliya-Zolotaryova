@@ -7,19 +7,106 @@
     <meta name="description" content="Webpage of Yulia Zolotaryova" />
     <title>Yuliya Zolotaryova event host</title>
 
-    <!-- Шляхи до ресурсів виправлено -->
     
     
     <script type="module" crossorigin src="/Yuliya-Zolotaryova/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Yuliya-Zolotaryova/assets/index-4eb44341.css">
+    <link rel="modulepreload" crossorigin href="/Yuliya-Zolotaryova/assets/vendor-13b3b862.js">
     <link rel="stylesheet" href="/Yuliya-Zolotaryova/assets/vendor-fef9b9da.css">
+    <link rel="stylesheet" href="/Yuliya-Zolotaryova/assets/index-3c43b37e.css">
   </head>
-  <!--  
-    <link rel="stylesheet" href="./src/css/styles.css" />
-    <script type="module" src="./main.js"></script>
-    -->
 
   <body>
+    <header class="header" id="header">
+  <div class="header-section">
+    <div class="header-logo">
+      <nav class="header-nav">
+        <a class="header-nav" href="../index.html">
+          <div class="logo-box">
+            <img
+              src="/Yuliya-Zolotaryova/assets/YuliyaLogo-f5207279.jpg"
+              loading="lazy"
+              alt="logo"
+              class="logo"
+            />
+          </div>
+        </a>
+      </nav>
+    </div>
+    <div class="menu-box-list">
+      <div class="menu-tab-div">
+        <button class="menu-tab">Menu</button>
+      </div>
+
+      <!-- Десктопне меню -->
+      <div class="menu is-hidden">
+        <ul class="menu-list">
+          <li class="menu-list-item">
+            <a class="menu-link-text" href="#about">About</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link-text" href="#benefits">Benefits</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link-text" href="#gallery">Gallery</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link-text" href="#reviews">Reviews</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link-text" href="#footer">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="btn-box">
+      <!-- Мобільна кнопка -->
+      <button
+        class="menu-mob-btn"
+        aria-label="menu burger button"
+        type="button"
+      >
+        <svg class="icon_burger">
+          <use href="../images/icons.svg#icon-th-menu"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Мобільне меню -->
+  <div class="mob-menu is-hidden">
+    <div class="top-div">
+      <button
+        class="close_menu_btn"
+        aria-label="button close menu"
+        type="button"
+      >
+        <svg class="icon-btn-menu">
+          <use href="../images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+    <nav class="mob-nav">
+      <ul class="mob-menu-list">
+        <li class="mob-menu-item">
+          <a class="mob-menu-anchor" href="#about">About</a>
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-menu-anchor" href="#benefits">Benefits</a>
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-menu-anchor" href="#gallery">Gallery</a>
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-menu-anchor" href="#reviews">Reviews</a>
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-menu-anchor" href="#footer">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
     <section class="hero-section trigger-scroll-top-section" id="hero">
   <div class="container hero-container">
     <div class="hero-text-part">
@@ -80,10 +167,483 @@
       </address>
     </div>
     <div class="hero-picture-part">
-      <img src="/src/images/hero.jpg" alt="hero image" class="hero-image" />
+      <img src="../images/hero.jpg" alt="hero image" class="hero-image" />
     </div>
   </div>
 </section>
+
+    <section class="advert" id="advert">
+  <h2 class="advert-title">
+    <span class="title-wrapper"> Creative. Personal approach. Style</span>
+    <span class="title-wrapper"> Creative. Personal approach. Style</span>
+  </h2>
+</section>
+
+    <section class="benefits-section" id="benefits">
+  <div class="benefits-container container">
+    <h2 class="benefits-title">
+      <span class="benefits-span-title">Why</span> should you choose
+      <span class="benefits-span-title">me</span>
+    </h2>
+    <div class="container-benefits">
+      <ul class="benefits-list">
+        <li class="benefits-item">
+          <h3 class="benefits-list-title">Title 1</h3>
+          <p class="benefits-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            hic nihil debitis distinctio deleniti inventore consectetur, enim,
+            impedit minima perferendis repellendus necessitatibus mollitia.
+            Mollitia illum voluptatibus ducimus aut praesentium iure.
+          </p>
+        </li>
+        <li class="benefits-item">
+          <h3 class="benefits-list-title">Title 2</h3>
+          <p class="benefits-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            hic nihil debitis distinctio deleniti inventore consectetur, enim,
+            impedit minima perferendis repellendus necessitatibus mollitia.
+            Mollitia illum voluptatibus ducimus aut praesentium iure.
+          </p>
+        </li>
+        <li class="benefits-item">
+          <h3 class="benefits-list-title">Title 3</h3>
+          <p class="benefits-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            hic nihil debitis distinctio deleniti inventore consectetur, enim,
+            impedit minima perferendis repellendus necessitatibus mollitia.
+            Mollitia illum voluptatibus ducimus aut praesentium iure.
+          </p>
+        </li>
+        <li class="benefits-item">
+          <h3 class="benefits-list-title">Title 4</h3>
+          <p class="benefits-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            hic nihil debitis distinctio deleniti inventore consectetur, enim,
+            impedit minima perferendis repellendus necessitatibus mollitia.
+            Mollitia illum voluptatibus ducimus aut praesentium iure.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    <section class="gallery-section section" id="gallery">
+  <h2 class="gallery-hidden">Gallery</h2>
+  <div class="content-gallery">
+    <ul class="marquee-inner">
+      <li class="marquee line_1">
+        <picture class="marquee__line">
+          <source
+            class="gallery-image"
+            srcset="../images/Couples/couple_5westminster.jpg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="../images/Couples/couple_5westminster.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="gallery-image"
+            src="../images/Couples/couple_5westminster.jpg"
+            alt="westminster"
+            width="282"
+            loading="lazy"
+          />
+        </picture>
+        <picture class="marquee__line">
+          <source
+            class="gallery-image"
+            srcset="../images/img/Atmosphere/mension.jpg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="../images/Atmosphere/mension.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="gallery-image"
+            src="../images/Atmosphere/mension.jpg"
+            alt="mension"
+            width="282"
+            loading="lazy"
+          />
+        </picture>
+
+        <picture class="marquee__line">
+          <source
+            class="gallery-image"
+            srcset="../images/Atmosphere/atmo-dance.jpg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="../images/Atmosphere/atmo-dance.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="gallery-image"
+            src="../images/Atmosphere/atmo-dance.jpg"
+            alt="shard"
+            width="282"
+            loading="lazy"
+          />
+        </picture>
+        <picture class="marquee__line">
+          <source
+            class="gallery-image"
+            srcset="../images/Couples/couple_7shard.jpg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="../images/Couples/couple_7shard.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="gallery-image"
+            src="../images/Couples/couple_7shard.jpg"
+            alt="couple"
+            width="282"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+
+      <li class="marquee line_2">
+        <picture class="marquee__line">
+          <source
+            class="gallery-image"
+            srcset="../images/Couples/couple_3.jpg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="../images/Couples/couple_3.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="gallery-image"
+            src="../images/Couples/couple_3.jpg"
+            alt="couple"
+            width="282"
+            loading="lazy"
+          />
+        </picture>
+        <picture class="marquee__line">
+          <source
+            class="gallery-image"
+            srcset="../images/Couples/couple_5.jpg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="../images/Couples/couple_5.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="gallery-image"
+            src="../images/Couples/couple_5.jpg"
+            alt="couple"
+            width="282"
+            loading="lazy"
+          />
+        </picture>
+        <picture class="marquee__line">
+          <source
+            class="gallery-image"
+            srcset="../images/Couples/couple_2.jpg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="../images/Couples/couple_2.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="gallery-image"
+            src="../images/Couples/couple_2.jpg"
+            alt="couple"
+            width="282"
+            loading="lazy"
+          />
+        </picture>
+
+        <picture class="marquee__line">
+          <source
+            class="gallery-image"
+            srcset="../images/Atmosphere/custle.jpg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="../images/Atmosphere/custle.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="gallery-image"
+            src="../images/Atmosphere/custle.jpg"
+            alt="custle"
+            width="282"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+
+      <li class="marquee line_3">
+        <picture class="marquee__line">
+          <source
+            class="gallery-image"
+            srcset="../images/Atmosphere/atmo-inside.jpg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="../images/Atmosphere/atmo-inside.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="gallery-image"
+            src="../images/Atmosphere/atmo-inside.jpg"
+            alt="dance"
+            width="282"
+            loading="lazy"
+          />
+        </picture>
+        <picture class="marquee__line">
+          <source
+            class="gallery-image"
+            srcset="../images/Atmosphere/arch.jpg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="../images/Atmosphere/arch.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="gallery-image"
+            src="../images/Atmosphere/arch.jpg"
+            alt="cover-make-up"
+            width="282"
+            loading="lazy"
+          />
+        </picture>
+        <picture class="marquee__line">
+          <source
+            class="gallery-image"
+            srcset="../images/Atmosphere/guests-outside.jpg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="../images/Atmosphere/guests-outside.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="gallery-image"
+            src="../images/Atmosphere/guests-outside.jpg"
+            alt="cover-make-up"
+            width="282"
+            loading="lazy"
+          />
+        </picture>
+        <picture class="marquee__line">
+          <source
+            class="gallery-image"
+            srcset="../images/Atmosphere/shard.jpg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="../images/Atmosphere/shard.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="gallery-image"
+            src="../images/Atmosphere/shard.jpg"
+            alt="cover-make-up"
+            width="282"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+    <section class="about-me section" id="about">
+  <div class="container">
+    <h2 class="about-header">About <span class="title-span">Me</span></h2>
+    <div class="about-desk">
+      <picture class="about-photo" data-aos="zoom-in">
+        <!--Desktop-->
+        <!--Tablet-->
+        <!--Mobile-->
+        <img
+          src="../images/Yulia/with-microphone.jpg"
+          alt="photo Yulya"
+          class="about-photo"
+          loading="lazy"
+        />
+      </picture>
+      <div class="about-p">
+        <p class="about-text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi eaque
+          inventore aliquid reprehenderit consequuntur quia odio voluptates
+          eveniet rerum optio nobis nulla iure deleniti, fugiat et neque
+          repellat cupiditate? Consequuntur!
+        </p>
+        <p class="about-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+          commodi explicabo, aliquid dolor ducimus sint laudantium at harum
+          corrupti repellat illo. Ea, quas earum! Sint exercitationem
+          consequatur expedita alias id.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="reviews" id="reviews">
+  <div class="container-reviews">
+    <h2 class="reviews-title">REVIEWS</h2>
+    <div class="swiper swiper-reviews">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide review-card">
+          <div class="review-card-couple">
+            <picture>
+              <img src="path/to/image1.jpg" alt="Person 1" />
+            </picture>
+            <h3 class="person-name">Someone 1</h3>
+          </div>
+          <p class="review-text">I am very pleased that I decided to...</p>
+        </div>
+        <!--  -->
+        <div class="swiper-slide review-card">
+          <div class="review-card-couple">
+            <picture>
+              <img src="path/to/image1.jpg" alt="Person 1" />
+            </picture>
+            <h3 class="person-name">Someone 2</h3>
+          </div>
+          <p class="review-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nulla
+            sit nesciunt, cumque iste quisquam vel repellendus quia quam facere
+            deleniti quidem esse eius facilis ratione ducimus debitis placeat
+            veniam.
+          </p>
+        </div>
+
+        <div class="swiper-slide review-card">
+          <div class="review-card-couple">
+            <picture>
+              <img src="path/to/image1.jpg" alt="Person 1" />
+            </picture>
+            <h3 class="person-name">Someone 3</h3>
+          </div>
+          <p class="review-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
+            consectetur optio temporibus aliquid eius architecto nobis veritatis
+            quas quasi facilis rerum ea harum numquam dignissimos, ad delectus,
+            culpa odio obcaecati. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Perspiciatis iure, accusantium enim, quo sed in
+            asperiores optio autem ipsum sint dignissimos sapiente reiciendis
+            eius neque deserunt quasi qui, excepturi animi?
+          </p>
+        </div>
+        <div class="swiper-slide review-card">
+          <div class="review-card-couple">
+            <picture>
+              <img src="path/to/image1.jpg" alt="Person 1" />
+            </picture>
+            <h3 class="person-name">Someone 4</h3>
+          </div>
+          <p class="review-text">I am very pleased that I decided to...</p>
+        </div>
+        <div class="swiper-slide review-card">
+          <div class="review-card-couple">
+            <picture>
+              <img src="path/to/image1.jpg" alt="Person 1" />
+            </picture>
+            <h3 class="person-name">Someone 5</h3>
+          </div>
+          <p class="review-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
+            consectetur optio temporibus aliquid eius architecto nobis veritatis
+            quas quasi facilis rerum ea harum numquam dignissimos, ad delectus,
+            culpa odio obcaecati. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Perspiciatis iure, accusantium enim, quo sed in
+            asperiores optio autem ipsum sint dignissimos sapiente reiciendis
+            eius neque deserunt quasi qui, excepturi animi?
+          </p>
+        </div>
+        <div class="swiper-slide review-card">
+          <div class="review-card-couple">
+            <picture>
+              <img src="path/to/image1.jpg" alt="Person 1" />
+            </picture>
+            <h3 class="person-name">Someone 6</h3>
+          </div>
+          <p class="review-text">I am very pleased that I decided to...</p>
+        </div>
+      </div>
+      <div class="button-box">
+        <button class="button-prev" type="button">
+          <svg class="icon icon-arrow-left2" width="24" height="24">
+            <use href="../images/icons.svg#icon-arrow-left-thick"></use>
+          </svg>
+        </button>
+        <button class="button-next" type="button">
+          <svg class="icon icon-arrow-right2" width="24" height="24">
+            <use href="../images/icons.svg#icon-arrow-right-thick"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <footer class="footer" id="footer">
+  <div class="footer-wrap">
+    <h2 class="footer-title">Contact me today to discuss the details</h2>
+    <address class="email-address">
+      <a
+        href="mailto:yzolotarova899@gmail.com"
+        target="_blank"
+        class="mail-link"
+        >yzolotarova899@gmail.com</a
+      >
+    </address>
+    <address class="phone">
+      <a href="tel:+447809615403" class="phone">+44 7809 615 403</a>
+    </address>
+
+    <address class="socials" data-aos="fade-left">
+      <ul class="social-list">
+        <li class="social-item">
+          <a
+            href="https://www.instagram.com/yuliya.zolotaryova/"
+            target="_blank"
+            class="social-li"
+          >
+            <svg class="social-icon" width="16" height="16">
+              <use href="/src/img/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            href="https://www.facebook.com/yulia.zolotaryova.7"
+            target="_blank"
+            class="social-li"
+          >
+            <svg class="social-icon" width="16" height="16">
+              <use href="/src/img/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </address>
+  </div>
+</footer>
+
+    <button class="btn-scroll-to-top is-hidden" id="scroll-to-top">
+  <svg class="icon-scroll-to-top" width="24" height="24">
+    <use href="../images/icons.svg#icon-thin-up"></use>
+  </svg>
+</button>
 
   </body>
 </html>
