@@ -2,40 +2,88 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-12/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>HW 12</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
-    />
+    <link rel="icon" type="image/svg+xml" href="/Yuliya-Zolotaryova/assets/YZlogo-91c959e2.jpg" />
+    <meta name="description" content="Webpage of Yulia Zolotaryova" />
+    <title>Yuliya Zolotaryova event host</title>
+
+    <!-- Шляхи до ресурсів виправлено -->
     
-    <script type="module" crossorigin src="/goit-js-hw-12/commonHelpers.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-06b1bbdf.js">
-    <link rel="stylesheet" href="/goit-js-hw-12/assets/vendor-1cd1f9d9.css">
-    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-3c39b19d.css">
+    
+    <script type="module" crossorigin src="/Yuliya-Zolotaryova/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/Yuliya-Zolotaryova/assets/index-4eb44341.css">
+    <link rel="stylesheet" href="/Yuliya-Zolotaryova/assets/vendor-fef9b9da.css">
   </head>
+  <!--  
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <script type="module" src="./main.js"></script>
+    -->
+
   <body>
-    <form class="img-search-form">
-      <input
-        type="search"
-        name="query"
-        placeholder="Search images..."
-        class="imput-search"
-      />
-      <button class="img-search-btn" type="submit">Search</button>
-    </form>
+    <section class="hero-section trigger-scroll-top-section" id="hero">
+  <div class="container hero-container">
+    <div class="hero-text-part">
+      <h1 class="main-title">
+        Yuliya <span class="main-title-span">Zolotaryova</span> Event Host
+      </h1>
+      <p class="hero-text">
+        Celebrate Every Moment! From breathtaking weddings to unforgettable
+        events, let’s transform your dreams into reality! ✨ Your special day
+        deserves to be magical — filled with joy, laughter, and cherished
+        memories. Don’t wait — contact me today and let’s start planning the
+        celebration of a lifetime! ❤️
+      </p>
 
-    <div class="cards">
-      <ul class="gallery"></ul>
-      <span class="loader hidden"></span>
-      <button type="button" class="load-more-btn hidden">Load more</button>
+      <address class="mail-address" data-aos="fade-left">
+        <ul class="social-list">
+          <li class="social-item">
+            <a
+              href="https://www.instagram.com/yuliya.zolotaryova/"
+              target="_blank"
+              class="social-li"
+            >
+              <svg class="social-icon" width="16" height="16">
+                <use href="/src/img/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a
+              href="https://www.facebook.com/yulia.zolotaryova.7"
+              target="_blank"
+              class="social-li"
+            >
+              <svg class="social-icon" width="16" height="16">
+                <use href="/src/img/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="tel:+447809615403" class="phone">
+              <svg class="social-icon" width="16" height="16">
+                <use href="/src/img/icons.svg#icon-whatsapp"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a
+              href="mailto:yzolotarova899@gmail.com"
+              target="_blank"
+              class="mail-link"
+            >
+              <svg class="social-icon" width="16" height="16">
+                <use href="/src/img/icons.svg#icon-mail"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </address>
     </div>
+    <div class="hero-picture-part">
+      <img src="../images/hero.jpg" alt="hero image" class="hero-image" />
+    </div>
+  </div>
+</section>
 
-    
   </body>
 </html>
