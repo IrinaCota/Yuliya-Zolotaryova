@@ -1,13 +1,53 @@
-<header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+<header class="header" id="header">
+  <div class="header-section">
+    <nav class="header-nav">
+      <a class="header-nav" href="../index.html">
+        <div class="logo-box">
+          <img
+            src="/src/img/YuliyaLogo.jpg"
+            loading="lazy"
+            alt="logo"
+            class="logo"
+          />
+        </div>
+      </a>
+    </nav>
+    <div class="menu-box-list">
+      <div class="menu-tab-div">
+        <button class="menu-tab">Menu</button>
+      </div>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+      <div class="menu is-hidden">
+        <ul class="menu-list">
+          <li class="menu-list-item">
+            <a class="menu-link-text" href="#about">About</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link-text" href="#benefits">Benefits</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link-text" href="#gallery">Gallery</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link-text" href="#reviews">Reviews</a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-link-text" href="#footer">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <div class="btn-box">
+        <button
+          class="menu-mob-btn"
+          aria-label="menu burger button"
+          data-menu-open
+          type="button"
+        >
+          <svg class="icon_burger">
+            <use href="/src/img/symbol-defs.svg#icon-th-menu"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
 </header>
